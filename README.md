@@ -3,7 +3,7 @@
 
 
 ## Objetivo
-Implementar um Progressive Web App (PWA) o frameword Vuejs, aplicando os conhecimentos adquiridos durante as aulas e expandindo as habilidades adquiridas.
+Implementar uma Progressive Web App (PWA) o frameword Vuejs, aplicando os conhecimentos adquiridos durante as aulas e expandindo as habilidades adquiridas.
 
 
 ## Requisitos
@@ -21,3 +21,4 @@ Para que o objetivo do projeto seja atingido é necessário que os seguinte requ
 10. O aplicativo deve oferecer uma opção para que o usuário finalize a sua sessão e retorne a rota de login;
 11. O aplicativo deve consumir a API Rest do GitHub e listar todos os repositórios de um usuário a partir da digitação do nome desse usuário em um campo da tela inicial do aplicativo;
 12. A listagem dos repositórios deve conter o nome do repositório, quantidade de estrelas e link para o mesmo;
+13. A PWA deve conter ícones, splash screen e a tela de login deve ser exibida ao usuário com um aviso caso o mesmo esteja offline.
