@@ -17,6 +17,7 @@ Para que o objetivo do projeto seja atingido é necessário que os seguinte requ
 6. Ao executar login os dados do usuário (nome e endereço) devem ser armazenados na store Vuex do aplicativo;
 7. O aplicativo deve conter uma rota para edição do perfil do usuário, onde ele deve informar o nome completo;
 8. O aplicativo deve conter uma rota para edição do endereço completo do usuário, que deve ser obtido a partir da digitação do CEP e os dados do endereço devem ser preenchidos automaticamente com o consumo de uma API;
-8. O aplicativo deve oferecer uma opção para que o usuário finalize a sua sessão e retorne a rota de login;
-9. O aplicativo deve consumir a API Rest do GitHub e listar todos os repositórios de um usuário a partir da digitação do nome desse usuário em um campo da tela inicial do aplicativo;
-10. A listagem dos repositórios deve conter o nome do repositório, quantidade de estrelas e link para o mesmo;
+9. Os dados extras do usuário (nome completo e endereço) devem ficar armazenados no serviço Firebase Database e devem ser carregados no login do usuário para a store Vuex;
+10. O aplicativo deve oferecer uma opção para que o usuário finalize a sua sessão e retorne a rota de login;
+11. O aplicativo deve consumir a API Rest do GitHub e listar todos os repositórios de um usuário a partir da digitação do nome desse usuário em um campo da tela inicial do aplicativo;
+12. A listagem dos repositórios deve conter o nome do repositório, quantidade de estrelas e link para o mesmo;
